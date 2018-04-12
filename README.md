@@ -16,4 +16,4 @@ This is the repository for the GK10.2 task.
 ## Starting the iOS application
 1. Go into the applications folder via console
 2. Start the application with the command `react-native run-ios`
-3. The iOS emulator starts automaticly if you have XCode installed
+3. The iOS emulator starts automatically if you have XCode installed
