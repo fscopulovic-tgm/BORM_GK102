@@ -77,7 +77,7 @@ export default class Register extends React.Component<Props, State> {
         if(this.state.password === this.state.second_password) {
             if (this.makeRegisterRequest()) {
                 // Navigates to the Profile Page of the application
-                Actions.profile({username : this.state.username})
+                Actions.profile({title : 'Profile '+ this.state.username, username : this.state.username})
             } else {
                 Alert.alert(
                     'Something went wrong',

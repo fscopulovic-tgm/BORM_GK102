@@ -78,7 +78,7 @@ export default class Login extends React.Component<Props, State> {
     checkResponse(success : boolean) : void {
         if (success) {
             // Navigates to the Profile Page of the application
-            Actions.profile({username : this.state.username})
+            Actions.profile({title : 'Profile '+ this.state.username, username : this.state.username})
         } else {
             Alert.alert(
                 'Something went wrong',
